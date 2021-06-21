@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="../public/edit_icon.png"/>
+
+    
+    <title>Add Tour</title>
+    <link rel="stylesheet" href="../public/style.css"> 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="/js/tour_utils.js"></script>
+</head>
+
+<body >
+
+    
+    <div id="main_form">
+
+        <h1>Add New Tour</h1>
+        
+
+
+        <form id="user_form" name="user_form" method="POST">
+        <button id = 'back' onclick= "location.href = '\list';" class="btn btn-warning back"> Back </button>
+
+            <div id="name" >
+                <label for="ID">Tour Name: </label>
+                <input type="text" class="form-control" name="ID" id="ID" placeholder="Tour name" required>
+            </div>
+            <br>
+            <div id="date">
+                <label for="StartingDate">Starting date: </label>
+                <input type="date" class="form-control" name="StartingDate" id="StartingDate" required>
+            </div>
+            <br>
+            <div id="duration">
+                <label for="Duration">Duration: </label>
+                <input type="number" class="form-control" name="Duration" placeholder="Numbers of days" id="Duration" min="1"required>
+            </div>
+            <br>
+            <div id="cost">
+                <label for="Cost">Cost: </label>
+                <input type="text" class="form-control" name="Cost" id="Cost" placeholder="Numbers only" required>
+            </div>
+            <div id="guide-group">
+                
+            </div>
+
+            <button type="submit">Submit<span class="fa fa-arrow-right"></span></button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

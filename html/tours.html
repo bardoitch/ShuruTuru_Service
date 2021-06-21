@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../public/icon.png"/> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+    <script src='../js/script.js'></script>
+
+    <title>ShuruTuru</title>
+
+    <link rel="stylesheet" href="../public/style.css"> 
+
+  </head>
+  <body>
+
+    <h1><b>S</b>huruTuru <b>S</b>ervice</h1>
+    <p>Whether you're traveling abroad for business or pleasure,</p>
+    <p>SS Travels can offer a unique way to explore the world, </p>
+    <p>Led by experienced and high quality guides and operators,</p>
+    <p>an international coverage plan for you.</p>
+    <br>
+    <div id= "main">
+
+      <button id = 'add_tour' onclick= "location.href = '\add_tour'" > Add New Tour </button>
+      <button id = 'add_guide' onclick= "location.href = '\add_guide'" > Add New Guide </button>
+
+      <br>
+        <label class="select" for="tours">Sort Tours By:</label> 
+        <select name="options" id="tours_options" onchange =sort(id)  >
+            <option  value="Tour Name">Tour Name</option>
+            <option  value="Start Date">Start Date</option>
+            <option  value="Duration">Duration</option>
+            <option  value="Cost">Cost</option>
+        </select>
+        <br>
+        <input type="checkbox" id="reverse" class  ="reverse" name="reverse" onchange =reverse_data(id) > 
+        <label for="reverse" class ="reverse">Descending Order</label>
+
+        
+
+        <div id="data"></div>
+
+    
+    </div>
+    <button id = 'add_tour2' onclick= "location.href = '\add_tour'" > Add New Tour </button>
+    <button id = 'add_guide2' onclick= "location.href = '\add_guide'" > Add New Guide </button>
+
+
+    
+</body>
+</html>

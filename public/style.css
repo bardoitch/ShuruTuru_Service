@@ -1,0 +1,104 @@
+#main,#main_form{
+    color:black;
+
+}
+
+#main_form{
+    background-color: #E1E5EA;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+
+b{
+    font-size: 90px;
+    background-color: black;
+    border-radius: 200px;
+    color: white;
+    padding: 9px;
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+
+    
+
+}
+
+button{
+    position: sticky;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 100px;
+    border-left: none;
+    border-right: none;
+    border-color: #04009A;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+ 
+
+}
+
+button:hover{
+    opacity: 0.5;
+    background-color:#04009A ;
+    color: white;
+}
+
+input{
+    width: 30%;
+    height: 30px;
+    opacity: 0.6;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    border: 0;
+    margin: 10px;
+}
+
+
+#reverse{
+    width: 2%;
+    height: 15px;
+    cursor: pointer;
+    margin: 0;
+    /* margin-left: 20px; */
+}
+
+select{
+    font-family: Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    border-color:#04009A ;
+    outline: 0;
+    font-size: 15px;
+    
+}
+
+h3{
+    
+    font-weight: normal;
+}
+
+h5{
+    font-weight: normal;
+}
+
+.card{
+    border: 2px double black;
+    margin: 18px;
+    width: 50%;
+    display: inline-block;
+}
+
+
+
+
